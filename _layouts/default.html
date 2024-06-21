@@ -1,0 +1,15 @@
+<meta charset="utf8">
+<link rel="stylesheet" href="/ijo/selo.css">
+
+<body>
+  <header>
+    <h1>lipu</h1>
+    {% for toki in site.toki %}
+      {% assign lipu_ante = page.toki_ante | find: "toki", toki %}
+      {% if lipu_ante %}
+        <a href="{{ lipu_ante.url }}">{{ toki }}</a>
+      {% endif %}
+    {% endfor %}
+  </header>
+  {{ page.content }}
+</body>

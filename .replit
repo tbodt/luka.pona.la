@@ -1,0 +1,10 @@
+run = "jekyll serve"
+entrypoint = "README.md"
+
+[nix]
+channel = "stable-23_11"
+
+[[ports]]
+localPort = 4000
+externalPort = 80
+exposeLocalhost = true
