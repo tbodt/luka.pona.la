@@ -3,13 +3,15 @@
 
 <body>
   <header>
-    <h1>lipu</h1>
+    <h1>{{ page.title }}</h1>
+    <p>
     {% for toki in site.toki %}
       {% assign lipu_ante = page.toki_ante | find: "toki", toki %}
       {% if lipu_ante %}
         <a href="{{ lipu_ante.url }}">{{ toki }}</a>
       {% endif %}
     {% endfor %}
+    </p>
   </header>
-  {{ page.content }}
+  {{ content }}
 </body>
