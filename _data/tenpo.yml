@@ -1,0 +1,44 @@
+- nimi:
+    en: LPSL 101
+    tok: sona open
+  tenpo: 2024-06-21 23:00 GMT-5
+  ma:
+    siko: ma pona pi toki pona
+  toki: jan LTW li kama. jan Lakuse li pana sona. 
+  pini: true
+
+- nimi:
+    en: LPSL for ma pi kama sona
+    tok: ma pi kama sona la sona open pi luka pona
+  tenpo: 2024-06-28 12:00 GMT-5
+  ma:
+    siko: ma pi kama sona
+
+- nimi:
+    en: Learn LPSL at the Europe Meetup!
+    tok: o kama sona e luka pona lon tenpo kulupu pi ma Elopa!
+  tenpo: 2024-07-21 11:00 GMT+2
+  ma:
+    lon: Berlin
+  toki: jan Tepo li pana e sona.
+
+- nimi:
+    en: "LPSL Basics for VRC: 1/3"
+    tok: "luka pona pi ilo Wijasa: #open"
+  tenpo: 2024-08-17 10:00 GMT-5
+  ma:
+    siko: Ma Toki Pona VR
+
+- nimi:
+    en: "LPSL Basics for VRC: 2/3"
+    tok: "luka pona pi ilo Wijasa: #insa"
+  tenpo: 2024-08-24 10:00 GMT-5
+  ma:
+    siko: Ma Toki Pona VR
+
+- nimi:
+    en: "LPSL Basics for VRC: 3/3"
+    tok: "luka pona pi ilo Wijasa: #pini"
+  tenpo: 2024-08-31 10:00 GMT-5
+  ma:
+    siko: Ma Toki Pona VR

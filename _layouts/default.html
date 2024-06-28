@@ -1,17 +1,38 @@
+<head>
 <meta charset="utf8">
 <link rel="stylesheet" href="/ijo/selo.css">
+<script>const IJO_LIPU = {toki: {{ page.toki | jsonify }}};</script>
+{% assign _ = site.data.ante_toki[page.toki] %}
+</head>
 
 <body>
-  <header>
-    <h1>{{ page.title }}</h1>
-    <p>
-    {% for toki in site.toki %}
-      {% assign lipu_ante = page.toki_ante | find: "toki", toki %}
-      {% if lipu_ante %}
-        <a href="{{ lipu_ante.url }}">{{ toki }}</a>
-      {% endif %}
-    {% endfor %}
-    </p>
+  <header id="supa-sewi">
+    <div>
+      <nav>
+        <a id="nimi-suli" href="{% link {{ _.lipu_open }} %}">
+          luka.pona.la
+          <img alt="" src="/ijo/sitelen-luka.png">
+        </a>
+        <div id="nasin-mute">
+          <a href="/events.{{page.toki}}.html">{{ _.tenpo }}</a>
+          <a href="/strategic_plan.{{page.toki}}.html">{{ _.wile }}</a>
+          <a href="/resources.{{page.toki}}.html">{{ _.sona }}</a>
+          <a href="/about.{{page.toki}}.html">{{ _.lipu_ni }}</a>
+        </div>
+      </nav>
+    </div>
   </header>
-  {{ content }}
+  <main>
+    <h1>{{ page.title }}</h1>
+    <nav class="toki-ante">
+      {% for toki in site.toki %}
+        {% if toki == page.toki %}{% continue %}{% endif %}
+        {% assign lipu_ante = page.toki_ante | find: "toki", toki %}
+        {% if lipu_ante %}
+          <a href="{{ lipu_ante.url }}">{{ site.data.ante_toki[toki].nimi_toki }}</a>
+        {% endif %}
+      {% endfor %}
+    </nav>
+    {{ content }}
+  </main>
 </body>

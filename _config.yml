@@ -8,3 +8,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+exclude:
+  - replit.nix
+
+kramdown:
+  parse_block_html: true

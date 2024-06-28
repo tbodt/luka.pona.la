@@ -1,8 +1,14 @@
-run = "jekyll serve"
+run = "bundle exec jekyll serve --incremental --livereload --livereload-port=3001"
 entrypoint = "README.md"
+hidden = ["_site"]
 
-[nix]
-channel = "stable-23_11"
+[packager]
+language = "ruby"
+
+[[ports]]
+localPort = 3001
+externalPort = 3001
+exposeLocalhost = true
 
 [[ports]]
 localPort = 4000
