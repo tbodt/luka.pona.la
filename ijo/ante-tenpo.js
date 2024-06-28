@@ -28,7 +28,7 @@ function sitelen_tenpo_pi_toki_ma(tenpo) {
 function sitelen_tenpo_pona(tenpo) {
     tenpo = ante_tenpo(tenpo);
     if (typeof tenpo === 'string') return tenpo;
-    return `sike#${o_nnp(tenpo.getFullYear())})\u200bmun#${o_nnp(tenpo.getMonth())})\u200bsuno#${o_nnp(tenpo.getDate())} lon tenpo ilo #${tenpo.getHours()}:${tenpo.getMinutes().toString().padStart(2,0)}`;
+    return `sike#${o_nnp(tenpo.getFullYear())})\u200bmun#${o_nnp(tenpo.getMonth()+1)})\u200bsuno#${o_nnp(tenpo.getDate())} lon tenpo ilo #${tenpo.getHours()}:${tenpo.getMinutes().toString().padStart(2,0)}`;
     //sike#NNNN)mun#NN)suno#NN lon tenpo ilo #N)
 }
 
