@@ -46,4 +46,6 @@ ___
 
 tenpo ni la jan Lakuse li pali mute e toki pi lipu ni. jan Tepo li pali ilo e lipu ni. 
 
-This website is primarily maintained by jan Lakuse, a hearing signer of ASL that most often hosts LPSL classes. jan Lakuse takes mentorship and direction from jan Olipija, a HH user of BSL, who first initiated the LPSL project. jan Lakuse can be contacted directly by email at tokipona(dot)sasalin(at)gmail(dot)com or over Discord @raacz106.
+tenpo mute la jan Lakuse li pana e sona pi luka pona. o toki tawa jan Lakuse kepeken ilo pi pana lipu: tokipona (sike lili) sasalin (sitelen a) gmail (sike lili) com. ante la o toki tawa jan Lakuse kepeken ilo Siko lon nimi '@raacz106.'
+
+jan Lakuse li sona lili e toki luka Mewika. taso sona ona li lili. ona li ken pakala lon tenpo. tenpo mute la jan Lakuse li toki tawa jan Olipija. jan Olipija li open e luka pona li jan pi kute ale ala li kepeken toki luka Juke. 

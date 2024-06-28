@@ -21,6 +21,7 @@ function sitelen_tenpo_pi_toki_ma(tenpo) {
         month: "long",
         day: "numeric",
         hour: "numeric",
+        timeZoneName: "short",
     };
     return date.toLocaleString(undefined, options);
 }
