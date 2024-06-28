@@ -14,6 +14,8 @@ title: sona
 
 [**nimi ale pi luka pona**](https://youtu.be/rE_crkyRPhQ?si=DB8vlWstBNYNLTYp) li sitelen tawa tan jan Olipija. 
 
+[**nimi.li**] o lukin e nimi ale pi luka pona lon lipu wan. lipu li tan ilo Tani. 
+
 [**ilo pi nimi ale**](antetokipona.infinityfreeapp.com/lukapona/) la sina o pana e nimi. ilo li pana e sona nimi luka. ilo li tan jan Ke Tami. 
 
 ---
