@@ -7,7 +7,6 @@ function ante_tenpo(tenpo){
     let [_, sike, mun, suno, iloSuli, iloLili, antePiMaTenpo] = kipisiNanpa;
     date.setUTCFullYear(sike, parseInt(mun) - 1, suno);
     date.setUTCHours(iloSuli, iloLili, 0, 0, 0);
-    //great, now these have been set to  UTC. we need to find the offset between UTC and gmt-5 so we can adjust accordingly. 
     date.setTime(date.getTime() - parseInt(antePiMaTenpo) * 60 * 60 * 1000);
     return date;
 }
@@ -29,7 +28,8 @@ function sitelen_tenpo_pi_toki_ma(tenpo) {
 function sitelen_tenpo_pona(tenpo) {
     tenpo = ante_tenpo(tenpo);
     if (typeof tenpo === 'string') return tenpo;
-    return `sike#${o_nnp(tenpo.getFullYear())})\u200bmun#${o_nnp(tenpo.getMonth()+1)})\u200bsuno#${o_nnp(tenpo.getDate())} lon tenpo ilo #${tenpo.getHours()}:${tenpo.getMinutes().toString().padStart(2,0)}`;
+    let ma_tenpo = new Intl.DateTimeFormat(undefined, {timeZoneName: 'short'}).formatToParts(tenpo).find(i => i.type == 'timeZoneName').value;
+    return `sike#${o_nnp(tenpo.getFullYear())})\u200bmun#${o_nnp(tenpo.getMonth()+1)})\u200bsuno#${o_nnp(tenpo.getDate())} lon tenpo ilo #${tenpo.getHours()}:${tenpo.getMinutes().toString().padStart(2,0)} ${ma_tenpo}`;
     //sike#NNNN)mun#NN)suno#NN lon tenpo ilo #N)
 }
 
