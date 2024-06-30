@@ -5,11 +5,13 @@
   <p>
     <em>
       <span class="tenpo">{{ tenpo.tenpo }}</span><br>
+      {%- if tenpo.ma.nasin -%}<a href="{{ tenpo.ma.nasin }}">{%- endif -%}
       {%- if tenpo.ma.siko -%}
         {{ _.lon_ilo_siko }} "{{ tenpo.ma.siko }}"
       {%- else if tenpo.ma.lon -%}
         {{ _.lon_ma }} {{ tenpo.ma.lon }}
       {%- endif -%}
+      {%- if tenpo.ma.nasin -%}</a>{%- endif -%}
     </em>
   </p>
   <p>{{ tenpo.toki }}</p>
