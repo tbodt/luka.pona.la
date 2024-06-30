@@ -1,4 +1,4 @@
-run = "bundle exec jekyll serve --incremental --livereload --livereload-port=3001"
+run = "bundle exec jekyll serve --livereload --livereload-port=3001"
 entrypoint = "README.md"
 hidden = ["_site"]
 

@@ -10,6 +10,7 @@ toki: tok
 {% include tenpo_wan.html tenpo=tenpo %}
 {% endfor %}
 
+
 <p class="insa"><a href="events.tok.html">o lukin e tenpo kulupu ale</a></p>
 
 <script src="ijo/nasin-nanpa-pona.js"></script>
