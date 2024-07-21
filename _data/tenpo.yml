@@ -43,6 +43,8 @@
   ma:
     siko: ma pi kama sona
     nasin: https://discord.gg/gZ5787sK?event=1259764518247202897
+  toki: ijo TW li kama. jan Lakuse li pana sona. 
+  pini: true
 
 - nimi:
     en: LPSL for ma pi kama sona
@@ -58,7 +60,8 @@
   tenpo: 2024-07-21 11:00 GMT+2
   ma:
     lon: Berlin
-  toki: jan Tepo li pana e sona.
+  toki: ijo MLT li kama sona. jan Tepo en jan Ke Tami (en jan Kasape) li pana e sona.
+  pini: true
 
 - nimi:
     en: "LPSL Basics for VRC: 1/3"
