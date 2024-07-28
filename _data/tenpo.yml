@@ -37,6 +37,16 @@
   pini: true
 
 - nimi:
+    en: Learn LPSL at the Europe Meetup!
+    tok: o kama sona e luka pona lon tenpo kulupu pi ma Elopa!
+  tenpo: 2024-07-21 11:00 GMT+2
+  ma:
+    lon: Berlin
+  toki: ijo MLT li kama sona. jan Tepo en jan Ke Tami (en jan Kasape) li pana e sona.
+  pini: true
+
+
+- nimi:
     en: LPSL for ma pi kama sona
     tok: ma pi kama sona la sona open pi luka pona
   tenpo: 2024-07-21 12:00 GMT-5
@@ -53,15 +63,9 @@
   ma:
     siko: ma pi kama sona
     nasin: https://discord.gg/gZ5787sK?event=1259764518247202897
-
-- nimi:
-    en: Learn LPSL at the Europe Meetup!
-    tok: o kama sona e luka pona lon tenpo kulupu pi ma Elopa!
-  tenpo: 2024-07-21 11:00 GMT+2
-  ma:
-    lon: Berlin
-  toki: ijo MLT li kama sona. jan Tepo en jan Ke Tami (en jan Kasape) li pana e sona.
+  toki: ijo LW li kama. ijo T li lukin. jan Lakuse li pana sona. 
   pini: true
+
 
 - nimi:
     en: "LPSL Basics for VRC: 1/3"
