@@ -9,8 +9,8 @@ sina ken kama sona kepeken nasin mute. taso suli la, sina o kepeken luka pona lo
 sina lon ala kulupu la o lukin e lipu nasin. o kama sona e nimi ale kepeken lipu nimi. 
 
 sina wile sona e ijo la o toki lon ilo Siko:
-- lon 'ma pona pi toki pona' lon tomo #luka-pona
-- lon 'ma pi kama sona' lon tomo '#luka-pona'
+- lon ['ma pona pi toki pona'](https://discord.com/invite/mapona) lon tomo #luka-pona
+- lon ['ma pi kama sona'](https://discord.gg/ChC6qtVsSE) lon tomo '#luka-pona'
 
 kin la, o kama sona e ni: jan li kepeken toki luka seme lon poka ma sina? sina ken kama sona e toki luka ni kepeken nasin seme?
 
