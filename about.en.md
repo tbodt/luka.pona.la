@@ -10,7 +10,7 @@ Unlike languages that develop naturally amongst people like American Sign Langua
   
 ## What is LPSL?
 
-Luka Pona Sign Language is a communally-constructed artificial sign language designed to be used in the <a href="https://tokipona.org">Toki Pona</a> community. "luka pona" in Toki Pona means 'good hand.' Similarly to how Toki Pona has a limited amount of words, Luka Pona has a limited amount of signs: all together, less that 150 signs.
+Luka Pona Sign Language is a communally-constructed artificial sign language designed to be used in the <a href="https://tokipona.net">Toki Pona</a> community. "luka pona" in Toki Pona means 'good hand.' Similarly to how Toki Pona has a limited amount of words, Luka Pona has a limited amount of signs: all together, less that 150 signs.
 
 LPSL draws its grammar from the known grammars of natural sign languages, the precious and cherished resource of Deaf and Hard of Hearing communities. It is not a coded 1:1 version of Toki Pona. It has its own unique expressive capacity, and with it, a cultural debt to Deaf epistemologies.
 
